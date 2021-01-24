@@ -1,0 +1,44 @@
+body {
+    display: inline-block;
+    vertical-align: top;
+    background: #C7979F;
+  }
+
+  header {
+    background: #c7979f;
+  }
+
+  ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+.logo{
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+  width: 10%;
+  height: auto;
+  width: 100%;
+  margin-left: 72px;
+  margin-top: 60px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    height: auto;
+    margin-right: 1138;
+    margin-top: 94;
+}
+
+li {
+  display: inline;
+}
+
+.heroImg{
+  width: 60%;
+}
+
