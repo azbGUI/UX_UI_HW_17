@@ -1,44 +1,90 @@
 body {
-    display: inline-block;
-    vertical-align: top;
+    max-width: 900px;
     background: #C7979F;
+    color: #FFFFFF;
+    margin: 2em auto;
   }
 
   header {
-    background: #c7979f;
+    align-items: center;
+    display: flex;
   }
 
-  ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+  .logo {
+    margin: auto auto auto 0;
+  }  
+
+nav {
+  display: flex; 
+  position: -webkit-sticky; /* Safari */
+  align-items: center;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  padding-right: 1em;
+  display: inline-block; 
+  list-style-type: none;
+}
+
+button {
+  border-width: 0px; 
+  background-color: #FFFFFF;
+  color: #595959;
+  border: none;
+  border-radius: 15px;
+  font-family: montserrat;
+   }
+
+  div {
+    border: thin solid rgb(230, 221, 221); 
   }
+/* ABOVE THIS IS EVERYTHING INSIDE THE HEADER*/
 
-.logo{
-  text-align: left;
-  display: inline-block;
-  margin: auto;
-  width: 10%;
-  height: auto;
-  width: 100%;
-  margin-left: 72px;
-  margin-top: 60px;
+.content {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.nav {
-    display: inline-block;
-    vertical-align: middle;
-    width: 90%;
-    height: auto;
-    margin-right: 1138;
-    margin-top: 94;
+.heroImg li{ 
+  padding-right: 0em;
+  display: inline-block; 
+  list-style-type: none;
+  font-size: 40px;
+  vertical-align: middle;
 }
 
-li {
-  display: inline;
+.imgofme img {
+  max-width: 400px;
+  margin-right: 21px;
+  display: flex; 
+  align-content: center;
 }
 
-.heroImg{
-  width: 60%;
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 22px
 }
 
+div.allpara {
+  text-indent: 10%;
+}
+/* ABOVE THIS IS EVERYTHING INSIDE THE HERO IMG*/
+
+
+
+/* ABOVE THIS IS EVERYTHING INSIDE THE MY UX DESIGN SKILLS*/
+
+
+
+/* ABOVE THIS IS EVERYTHING INSIDE THE LIFE IN PHOTOS*/
+
+
+
+/* ABOVE THIS IS EVERYTHING INSIDE THE FOOTER*/
